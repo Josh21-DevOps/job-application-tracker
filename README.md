@@ -27,12 +27,14 @@ https://job-application-tracker-delta-tan.vercel.app/
 
 I built this project to practice creating a simple, useful web application with React. The app solves a real problem by helping track job applications, interviews, offers, rejections, and follow-up dates.
 
-## What I Learned
+## What I Practiced
 
-- How to create a React app with Vite
-- How to use React state
-- How to handle form inputs
-- How to render lists of data
-- How to filter data
-- How to save data in the browser with localStorage
-- How to deploy a project with Vercel
+While building this project, I practiced the basics of:
+
+- Setting up a React app with Vite
+- Using React state to store application data
+- Handling form inputs
+- Displaying lists of data
+- Filtering applications by status
+- Saving data in the browser with localStorage
+- Deploying a React project with Vercel
