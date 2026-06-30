@@ -1,0 +1,66 @@
+.app {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+.job-list {
+  display: grid;
+  gap: 16px;
+}
+
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background: white;
+}
+
+.job-card h2 {
+  margin: 0 0 8px;
+  color: black;
+}
+
+.job-card p {
+  margin: 6px 0;
+}
+
+.job-form {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.job-form input,
+.job-form select,
+.job-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.job-form button {
+  cursor: pointer;
+}
+
+.job-card button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
