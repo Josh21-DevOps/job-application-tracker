@@ -1,16 +1,38 @@
-# React + Vite
+# Job Application Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that helps users organize job applications and follow-up dates.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://job-application-tracker-delta-tan.vercel.app/
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new job applications
+- Remove job applications
+- Filter applications by status
+- Save applications in the browser using localStorage
+- Track company name, role, status, and follow-up date
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- CSS
+- localStorage
+- Vercel
+
+## Why I Built This
+
+I built this project to practice creating a simple, useful web application with React. The app solves a real problem by helping track job applications, interviews, offers, rejections, and follow-up dates.
+
+## What I Learned
+
+- How to create a React app with Vite
+- How to use React state
+- How to handle form inputs
+- How to render lists of data
+- How to filter data
+- How to save data in the browser with localStorage
+- How to deploy a project with Vercel
